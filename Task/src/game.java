@@ -38,7 +38,7 @@ public class game {
                 if(i==1)
                 	score= i*100;
                 else
-                	score= i*10;
+                	score= (k-i)*10;
                 System.out.println("Number of trials = "+i+"/"+k);
                 break;
             }
